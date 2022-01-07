@@ -1,9 +1,12 @@
 package com.smari.reflexive.dto;
 
+import java.io.Serializable;
+
 /**
  * @author smari
  */
-public class EmployeeModel {
+public class EmployeeModel implements Serializable {
+    private static final long serialVersionUID = 1L;
     private Long id;
     private String firstName;
     private String lastName;
